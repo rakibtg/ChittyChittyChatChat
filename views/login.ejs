@@ -1,0 +1,26 @@
+<% include header %>
+
+<div class="container">
+  <div class="col-sm-3"></div>
+  <div class="col-sm-6">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <b>Login</b>
+      </div>
+      <div class="panel-body">
+        <form action="/actlogin" method="post">
+          <input type="text" class="form-control" name="email" id="" placeholder="Email address"> <br>
+          <input type="password" class="form-control" name="password" id="" placeholder="Password"> <br>
+          <input type="submit" class="btn btn-success" value="Login">        
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3"></div>
+</div>
+
+<% include  footer %>
